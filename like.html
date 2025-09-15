@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Понравилось</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button id="themeToggle" aria-label="Переключить тему"
+    onclick="toggleTheme()">☀️</button>
+  <div class="page">
+    <div class="nav_bar">
+      <nav aria-label="menu">
+        <div class="site_repr"><img
+            src=Logo.png
+            width="80px">Как я провёл лето</div>
+        <ul class="menu" role="menubar" aria-label="Главное меню">
+          <li role="none">
+            <a href="index.html" role="menuitem" tabindex="0">Главная</a>
+          </li>
+          <li role="none">
+            <a href="#" role="menuitem" tabindex="0" aria-haspopup="true">Мультимедия</a>
+            <ul class="submenu" role="">
+              <li role="none"><a href="video.html" role="menuitem" tabindex="0">Видео</a></li>
+              <li role="none"><a href="photo.html" role="menuitem" tabindex="0">Фото</a></li>
+            </ul>
+          </li>
+          <li role="none">
+            <a href="#" role="menuitem" tabindex="0" aria-haspopup="true">Личные впечатления</a>
+            <ul class="submenu" role="">
+              <li role="none"><a href="like.html" role="menuitem" tabindex="0">Понравилось</a></li>
+              <li role="none"><a href="dislike.html" role="menuitem" tabindex="0">Не понравилось</a></li>
+            </ul>
+          </li>
+          <li role="none">
+            <a href="it.html" role="menuitem" tabindex="0">IT</a>
+          </li>
+          <li role="none">
+            <a href="work.html" role="menuitem" tabindex="0">Страдания</a>
+          </li>
+          <li role="none">
+            <a href="brag.html" role="menuitem" tabindex="0">Похвастаться</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content" id="content">
+      <h1>Понравилось</h1>
+      <hr>
+      <h2>Что мне понравилось на отдыхе</h2>
+      <p>Больше всего мне запомнилась сама атмосфера лета у моря. Тёплое солнце и лёгкий бриз делали каждый день
+        особенным. Я наслаждался ранними утрами, когда пляж ещё пустой, а вода спокойная и прозрачная, словно зеркало.
+      </p>
+      <p>Понравились долгие прогулки по набережной: мягкий свет фонарей, запах свежей кукурузы, музыка уличных артистов
+        и шум прибоя создавали ощущение праздника. Было приятно наблюдать, как дети смеются на аттракционах, а вокруг
+        царит беззаботность и радость.</p>
+      <p>Особое удовольствие приносили моменты тишины — когда мы сидели на пляже и смотрели на звёзды. Эти минуты
+        напоминали, как важно уметь останавливаться и просто наслаждаться мгновением.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

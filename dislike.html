@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Не понравилось</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button id="themeToggle" aria-label="Переключить тему"
+    onclick="toggleTheme()">☀️</button>
+  <div class="page">
+    <div class="nav_bar">
+      <nav aria-label="menu">
+        <div class="site_repr"><img
+            src=Logo.png
+            width="80px">Как я провёл лето</div>
+        <ul class="menu" role="menubar" aria-label="Главное меню">
+          <li role="none">
+            <a href="index.html" role="menuitem" tabindex="0">Главная</a>
+          </li>
+          <li role="none">
+            <a href="#" role="menuitem" tabindex="0" aria-haspopup="true">Мультимедия</a>
+            <ul class="submenu" role="">
+              <li role="none"><a href="video.html" role="menuitem" tabindex="0">Видео</a></li>
+              <li role="none"><a href="photo.html" role="menuitem" tabindex="0">Фото</a></li>
+            </ul>
+          </li>
+          <li role="none">
+            <a href="#" role="menuitem" tabindex="0" aria-haspopup="true">Личные впечатления</a>
+            <ul class="submenu" role="">
+              <li role="none"><a href="like.html" role="menuitem" tabindex="0">Понравилось</a></li>
+              <li role="none"><a href="dislike.html" role="menuitem" tabindex="0">Не понравилось</a></li>
+            </ul>
+          </li>
+          <li role="none">
+            <a href="it.html" role="menuitem" tabindex="0">IT</a>
+          </li>
+          <li role="none">
+            <a href="work.html" role="menuitem" tabindex="0">Страдания</a>
+          </li>
+          <li role="none">
+            <a href="brag.html" role="menuitem" tabindex="0">Похвастаться</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content" id="content">
+      <h1>Не понравилось</h1>
+      <hr>
+      <h2>Что не понравилось на отдыхе</h2>
+      <p>Несмотря на массу приятных впечатлений, без мелких неудобств тоже не обошлось. Иногда погода подкидывала сюрпризы: то налетал резкий ветер, то внезапно начинался короткий дождь и приходилось прятаться под навесами, откладывая все планы.</p>
+      <p>На популярных пляжах порой было слишком многолюдно — шум, суета и очереди к кафе немного сбивали ощущение умиротворения. Иногда раздражала навязчивая торговля сувенирами и громкая музыка из соседних баров, когда хотелось просто посидеть у воды и послушать волны.</p>
+      <p>Но эти мелочи не смогли испортить общее впечатление. Наоборот, они добавили отпуску реалистичности и напомнили, что идеальных мест не бывает, а настроение зависит от того, как ты смотришь на ситуацию.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
